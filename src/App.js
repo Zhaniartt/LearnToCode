@@ -5,6 +5,7 @@ import Header from './components/header/Header'
 import InfoSection from './components/info-section/InfoSection'
 import InfoSection2 from './components/info-section/InfoSection2'
 import CareerSection from './components/career-sect/CarreerSection'
+import Steps from './components/steps-sect/Steps'
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       </header>
 
       <InfoSection/>
+      <Steps/>
       <InfoSection2/>
       <CareerSection/>
     </div>

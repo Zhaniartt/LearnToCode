@@ -37,7 +37,7 @@ h4{
 button {
     border: 0;
     border-radius: 2px;
-    background-color: #5e95ba;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
   }
   

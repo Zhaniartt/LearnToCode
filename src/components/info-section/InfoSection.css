@@ -1,10 +1,18 @@
-
+#first-section {
+    width: 70%;
+}
 .info-softuni {
+    margin-top: 50px;
     text-align:left; 
 }
 .info-wrapper-section div{
     display: inline-block
 }
 .info-wrapper-section{
-    display: inline-block;
+    flex-direction: row;
+    display:flex;
+    align-items: center
+}
+.success-rate{
+ width: 30%;
 }

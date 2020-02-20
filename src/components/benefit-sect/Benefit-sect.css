@@ -1,0 +1,36 @@
+.benefits-sect-whole{
+    margin-top: 160px;
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#time-3-icon {
+    fill: #5e95ba;
+    
+ }
+ 
+ .my-svg-alternate {
+   display: none;
+ }
+ .no-svg .my-svg-alternate {
+   display: block;
+   width: 100px;
+   height: 100px;
+ }
+
+ .benefit-info-whole p{
+        color: #5e95ba;
+        font-size: 20px;
+ }
+.benefit-sect-row .benefit-item {
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.benefits-sect-whole{
+    background-color: white;
+}
+.svg-icon{
+    color: darkblue
+}

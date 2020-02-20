@@ -39,25 +39,25 @@ const CarreerSection = () => {
                              <div className="slide-container">
         <Slide {...properties}>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+            <div className="logo-image" style={{'backgroundImage': `url(${slideImages[0]})`}}>
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+            <div className="logo-image" style={{'backgroundImage': `url(${slideImages[1]})`}}>
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+            <div className="logo-image" style={{'backgroundImage': `url(${slideImages[2]})`}}>
               <span>SPAN</span>
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
+            <div className="logo-image" style={{'backgroundImage': `url(${slideImages[3]})`}}>
               <span>SPAN</span>
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[4]})`}}>
+            <div className="logo-image" style={{'backgroundImage': `url(${slideImages[4]})`}}>
               <span>SPAN</span>
             </div>
           </div>

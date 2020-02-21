@@ -11,7 +11,10 @@ class NavB extends Component {
   constructor(props){
     super(props)
     this.state = {
-      username: null
+      username: 'Admin Admin',
+      initials: 'AA',
+      email: 'admin@gmail.com',
+
     }
 
   }
@@ -21,9 +24,9 @@ class NavB extends Component {
 
   render = () =>{
     // let user = sessionStorage.getItem('user')
-    let user = 'AA'
+  
 
-    const loogedInSection = <div className="nav-link" style={{color: 'blue'}}>{user}</div>
+    const loogedInSection = <div className="nav-link" style={{color: 'blue'}}>{this.state.initials}</div>
     
     return (
       <div>
@@ -86,10 +89,31 @@ class NavB extends Component {
             <ul className="nav navbar-nav ml-auto">
 
               <li className="nav-item">
-              <a class="nav-item" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> {user ? loogedInSection : null}</a>
+              <a class="nav-item" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> {this.state.username ? loogedInSection : null}</a>
 						<div class="dropdown-menu dropdown-menu-right dropdown-cyan" aria-labelledby="navbarDropdownMenuLink-4">
+              <div className="profile-wrapper">
+              <img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" width="100px" height="100px;"></img>
+                  <div className="name-section">
+                      <p>{this.state.username}</p>
+                      <div className="temp-info">
+                      {this.state.email}
+                  <button type="button" class="btn btn-outline-primary">MY SOFTUNI ACCOUNT</button>
+                      </div>
+                  
+                  </div>
+                  <i className="fas fa-user-crown"></i>
+              </div>
+              <div className="botton-wrapper">
+              <div>
 							<a class="dropdown-item" href="#">Profile</a>
-							<a class="dropdown-item" href="#">Sign out</a>
+              <i class="fa fa-user fa-login" aria-hidden="true"></i>
+              </div>
+              <div>
+							<a className="dropdown-itemIcon" href="#">Sign out</a>
+              <i class="fa fa-user fa-login" aria-hidden="true"></i>
+              </div>
+              </div>
+           
 						</div>
               </li>
             </ul>

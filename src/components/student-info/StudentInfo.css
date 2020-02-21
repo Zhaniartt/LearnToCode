@@ -1,0 +1,29 @@
+
+
+  
+.quote-box{
+    text-align: center;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 12px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.the-quote{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.photo-student img{
+    margin-left: 190px;
+
+}
+.photo-student{
+    margin-top: 40px;
+}
+.the-student-wrapper{
+   padding-top: 40px;
+    background-color: gainsboro;
+}

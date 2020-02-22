@@ -7,6 +7,8 @@ import InfoSection2 from './components/info-section/InfoSection2'
 import CareerSection from './components/career-sect/CarreerSection'
 import Steps from './components/steps-sect/Steps'
 import StudentInfo from './components/student-info/StudentInfo'
+import AwardCarousel from './components/award-sect/AwardCarousel'
+import SoftwareProgram from './components/software-program/SoftwareProgram'
 function App() {
   return (
     <div className="App">
@@ -19,7 +21,8 @@ function App() {
       <InfoSection2/>
       <CareerSection/>
       <StudentInfo/>
-      
+      <AwardCarousel/>
+      <SoftwareProgram/>
     </div>
   );
 }

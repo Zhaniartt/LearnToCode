@@ -40,7 +40,7 @@ class NavB extends Component {
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="collapse navbar-collapse" id="navbarCollapse" style={{paddingLeft:"340px"}}> 
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <a className="nav-link" href="/about">About us <span className="sr-only">(current)</span></a>
@@ -89,28 +89,28 @@ class NavB extends Component {
             <ul className="nav navbar-nav ml-auto">
 
               <li className="nav-item">
-              <a class="nav-item" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> {this.state.username ? loogedInSection : null}</a>
-						<div class="dropdown-menu dropdown-menu-right dropdown-cyan" aria-labelledby="navbarDropdownMenuLink-4">
+              <a className="nav-item" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> {this.state.username ? loogedInSection : null}</a>
+						<div className="dropdown-menu dropdown-menu-right dropdown-cyan" aria-labelledby="navbarDropdownMenuLink-4" >
+              <div className="whole-profile-wrapper">
               <div className="profile-wrapper">
-              <img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" width="100px" height="100px;"></img>
+              <img className="profile-image" src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" width="87ox" height="80px;"></img>
                   <div className="name-section">
                       <p>{this.state.username}</p>
-                      <div className="temp-info">
                       {this.state.email}
-                  <button type="button" class="btn btn-outline-primary">MY SOFTUNI ACCOUNT</button>
-                      </div>
+                  <button type="button" id="profile-button" className="btn btn-outline-primary">MY SOFTUNI ACCOUNT</button>
                   
                   </div>
                   <i className="fas fa-user-crown"></i>
               </div>
               <div className="botton-wrapper">
               <div>
-							<a class="dropdown-item" href="#">Profile</a>
-              <i class="fa fa-user fa-login" aria-hidden="true"></i>
+							<a className="dropdown-item" href="#">Profile</a>
+              <i className="fa fa-user fa-login" aria-hidden="true"></i>
               </div>
               <div>
 							<a className="dropdown-itemIcon" href="#">Sign out</a>
-              <i class="fa fa-user fa-login" aria-hidden="true"></i>
+              <i className="fa fa-user fa-login" ></i>
+              </div>
               </div>
               </div>
            

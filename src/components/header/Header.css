@@ -9,7 +9,7 @@ body{
 .info-div-section{
   margin-top: 50px;
 }
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
     .header-section-headings  {
       float: none;
       display: block;
@@ -18,10 +18,8 @@ body{
    .header-section-buttons{
     float: none;
    }
-  }
- #section-video{
-   margin-top:30px;
- }
+  } */
+
 
 h1{
     color: white;
@@ -61,9 +59,13 @@ button {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+.header-section-headings{
+  padding-right: 20px;
+}
 .header-section{
- 
+ display: flex;
+ flex-direction: row;
+ align-items: center;
 }
 .header-section-buttons div{
   margin-left: 20px;

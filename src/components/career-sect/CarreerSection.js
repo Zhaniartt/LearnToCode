@@ -39,6 +39,7 @@ class CarreerSection extends React.Component {
         <button style={{color:"black"}} onClick={() => this.Carousel.slidePrev()}> {"<"} </button>
        <div className="alice-container">
        <AliceCarousel
+       keysControlDisabled={true}
           dotsDisabled={true}
           responsive={responsive}
           buttonsDisabled={true}

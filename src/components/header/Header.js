@@ -24,7 +24,7 @@ const Home = () => {
                     Learn to code and start your career
                     </h1>
                     <div className="sub-heading container">
-                            <h4>
+                            <h4 style={{fontSize:"20px"}}>
                               Enroll in our end-to-end program.Start now with a free course
                             </h4>
 
@@ -38,8 +38,9 @@ const Home = () => {
                 </div>
 
 
-               <div id="section-video" className="section-one">
-               <YoutubeVideo />
+               <div  className="section-one">
+               <YoutubeVideo 
+               showCaptions/>
                </div>
                
             </header>
